@@ -1,3 +1,80 @@
-.sadf{
+.ToDo{
+    position: relative;
+    left: 210px;
+    display: inline block;
+    margin: 50px 0px 250px ;
     
+}
+.logo{
+    display: inline;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+nav{
+    position: relative;
+    left: 250px;
+    bottom: 25px;
+}
+
+main{
+    display: inline;
+}
+.add-task-btn{
+position: relative;
+top: 5px;
+margin-bottom: 100px;
+
+}
+td{
+    padding: 15px;
+    background-color: #DDE6ED;
+}
+.th-task{
+    position: relative;
+    
+    border: solid;
+}
+.th-done{
+    position: relative;
+    border: solid;
+}
+
+.task-status{
+
+border: solid;
+position: relative;
+
+}
+table{
+    width: 500px;
+    height:225px;
+    border: 3px solid;
+    
+}
+.c1{
+    border: solid;
+}
+
+
+header{
+    background-color: #9DB2BF;
+}
+
+.copy-right{
+    position: relative;
+    left: 500px;
+    
+    
+    display: inline-block;
+}
+footer{
+    height: 70px;
+    background-color: #9DB2BF;
+}
+
+/*FOR ABOUT*/
+.img{
+    position: relative;
+    right: 1000000px;
 }
