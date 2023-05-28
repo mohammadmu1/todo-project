@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1950/1950715.png" type="image/x-icon">
-    
+    <link rel="stylesheet" href="/css/style.css">
     <title>Todo</title>
 </head>
 <body>
     <header>
-        <h1><img src="https://cdn-icons-png.flaticon.com/512/1950/1950715.png" alt="Website Logo" width="50" height="50">  Todo</h1>
+        <h1 class="logo"><img src="https://cdn-icons-png.flaticon.com/512/1950/1950715.png" alt="Website Logo" width="50" height="50">  To-Do</h1>
         
         
         
@@ -19,32 +19,34 @@
         </header>
     <hr>
     <main>
-        <div>
-            <table>
-            <tr>
-                <th>Task</th>
-                <th>Done</th>
-            </tr>
-            <tr>
-                <td>Task 1</td>
-                <td><input type="checkbox"></td>
-            </tr>
-            <tr>
-                <td>Task 2</td>
-                <td><input type="checkbox"></td>
-            </tr>
-            <tr>
-                <td>Task 3</td>
-                <td><input type="checkbox" checked></td>
-            </tr>
-            </table>
+        <div class="ToDo">
+            <div>
+                <table >
+                <tr >
+                    <th class="th-task">Task</th>
+                    <th class="th-done">Done</th>
+                </tr>
+                <tr>
+                    <td class="c1">Task 1 </td>
+                    <td class="task-status"><input type="checkbox"></div></td>
+                </tr>
+                <tr >
+                    <td class="c1">Task 2 </td>
+                    <td class="task-status"><input type="checkbox"></div></td>
+                </tr>
+                <tr >
+                    <td class="c1">Task 3</td>
+                    <td class="task-status"><input type="checkbox"></div></td>
+                </tr>
+                </table>
+            </div>
+            
+            <div class="add-task-btn"> <button>Add Task</button></div>
         </div>
-        
-        <div> <button>Add Task</button></div>
     </main>
     <hr>
     <footer>
-        <p>&copy; Copyright</p>
+        <p class="copy-right">&copy; Copyright</p><br>
     </footer>
 </body>
 </html>

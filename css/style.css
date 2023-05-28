@@ -1,0 +1,130 @@
+.ToDo{
+    position: relative;
+    left: 210px;
+    display: inline block;
+    margin: 50px 0px 250px ;
+    
+}
+.logo{
+    display: inline;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+nav{
+    position: relative;
+    left: 250px;
+    bottom: 25px;
+}
+
+main{
+    display: inline;
+}
+.add-task-btn{
+position: relative;
+top: 5px;
+margin-bottom: 100px;
+
+}
+td{
+    padding: 15px;
+    background-color: #DDE6ED;
+}
+.th-task{
+    position: relative;
+    
+    border: solid;
+}
+.th-done{
+    position: relative;
+    border: solid;
+}
+
+.task-status{
+
+border: solid;
+position: relative;
+
+}
+table{
+    width: 500px;
+    height:225px;
+    border: 3px solid;
+    
+}
+.c1{
+    border: solid;
+}
+
+
+header{
+    background-color: #9DB2BF;
+}
+
+.copy-right{
+    position: relative;
+    left: 500px;
+    
+    
+    display: inline-block;
+}
+footer{
+    height: 70px;
+    background-color: #9DB2BF;
+}
+
+/*FOR ABOUT*/
+.limg{
+    position: relative;
+    top: 15px;
+    display: inline-block;
+    padding: 2px;
+    margin: 3px;
+    
+}
+
+.Description{
+    position: relative;
+    display: inline;
+    left: 110px;
+    bottom: 110px;
+    
+}
+
+.Contact {
+    margin-top: 20px;
+    position: relative;
+    left: 350px;
+  }
+  
+  .Contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .Contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .Contact .form {
+    margin-bottom: 10px;
+  }
+  
+  .Contact label {
+    font-weight: bold;
+  }
+  
+  .Contact input[type="text"],
+  .Contact input[type="email"],
+  .Contact textarea {
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+ 
+  
+  
+  

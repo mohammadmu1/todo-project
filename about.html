@@ -3,10 +3,11 @@
 <head>
 <title>About</title>
 <link rel="shortcut icon" href="https://icons.veryicon.com/png/o/internet--web/55-common-web-icons/person-4.png" type="image/x-icon">
+<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 <header>
-    <h1><img src="https://icons.veryicon.com/png/o/internet--web/55-common-web-icons/person-4.png" alt="Website Logo"   width="50" height="50">About</h1>
+    <h1 class="img"><img src="https://icons.veryicon.com/png/o/internet--web/55-common-web-icons/person-4.png" class="limg" alt="Website Logo"   width="50" height="50">About</h1>
     
     <nav>
     <a href="">Home</a> |
@@ -18,26 +19,27 @@
 <main>
     
     <section>
-    <h3>About Me</h3>
-    <img src="./imgs/252362523_3237194499837314_2762429144477205892_n.jpg" alt="My Photo" width="100" height="100">
-    <p>Name: Mohammad Mustafa</p>
-    <p>Description: Mohammad Mustafa ,<br>
+    <div class="me"><h3>About Me</h3>
+        <img src="./imgs/252362523_3237194499837314_2762429144477205892_n.jpg" alt="My Photo" width="100" height="100"></div>
+        <p class="Description">Name: Mohammad Mustafa<br><br></p>
+    <p class="Description">Description: Mohammad Mustafa ,
         a Mechatronics Engineer I received my degree from the Hashemite University i Have a passion for problem solving with c++.</p>
     </section>
     
-    <section>
+    
+    <section class="Contact">
     <h2>Contact Me</h2>
     <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required><br>
+        <div class="from"><label for="name">Name</label>
+            <input type="text" id="name" name="name" required><br></div>
         
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required><br>
+        <div class="form"><label for="email">Email</label>
+            <input type="email" id="email" name="email" required><br></div>
         
-        <label for="message">Message</label>
-        <textarea id="message" name="message" required></textarea><br>
+        <div class="form"><label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea><br></div>
         
-        <input type="submit" value="Submit">
+        <input type="submit" value="Send">
     </form>
     </section>
 </main>
