@@ -1,131 +1,203 @@
-.ToDo{
-    position: relative;
-    left: 210px;
-    display: inline block;
-    margin: 50px 0px 250px ;
-    
-}
-.logo{
-    display: inline;
-    position: relative;
-    left: 20px;
-    top: 10px;
-}
-nav{
-    position: relative;
-    left: 250px;
-    bottom: 25px;
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
-main{
-    display: inline;
-}
-.add-task-btn{
-position: relative;
-top: 5px;
-margin-bottom: 100px;
-
-}
-td{
-    padding: 15px;
-    background-color: #DDE6ED;
-}
-.th-task{
-    position: relative;
-    
-    border: solid;
-}
-.th-done{
-    position: relative;
-    border: solid;
-}
-
-.task-status{
-
-border: solid;
-position: relative;
-background-color: rgb(255, 5, 5);
-
-}
-table{
-    width: 500px;
-    height:225px;
-    border: 3px solid;
-    
-}
-.c1{
-    border: solid;
-}
-
-
-header{
-    background-color: #9DB2BF;
-}
-
-.copy-right{
-    position: relative;
-    left: 500px;
-    
-    
-    display: inline-block;
-}
-footer{
-    height: 70px;
-    background-color: #9DB2BF;
-}
-
-/*FOR ABOUT*/
-.limg{
-    position: relative;
-    top: 15px;
-    display: inline-block;
-    padding: 2px;
-    margin: 3px;
-    
-}
-
-.Description{
-    position: relative;
-    display: inline;
-    left: 110px;
-    bottom: 110px;
-    
-}
-
-.Contact {
-    margin-top: 20px;
-    position: relative;
-    left: 350px;
-  }
-  
-  .Contact h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .Contact form {
+/* Header styles */
+header {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .Contact .form {
-    margin-bottom: 10px;
-  }
-  
-  .Contact label {
-    font-weight: bold;
-  }
-  
-  .Contact input[type="text"],
-  .Contact input[type="email"],
-  .Contact textarea {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main styles */
+main {
+    margin-top: 20px;
+}
+
+.ToDo {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
     width: 100%;
-    padding: 5px;
-    border-radius: 3px;
-    border: 2px solid #ccc;
-  }
- 
-  
-  
- 
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.th-task {
+    width: 70%;
+}
+
+.th-done {
+    width: 30%;
+    text-align: center;
+}
+
+.c1 {
+    color: #333;
+}
+
+.task-status {
+    text-align: center;
+}
+
+.add-task-btn {
+    margin-top: 20px;
+    text-align: right;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}
+
+/*About style*/
+
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #333;
+}
+
+.limg {
+    margin-right: 10px;
+}
+
+nav a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Main styles */
+main {
+    margin-top: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.me img {
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.Description {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.Contact form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Footer styles */
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #777;
+}
