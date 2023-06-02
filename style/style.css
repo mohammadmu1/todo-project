@@ -33,7 +33,10 @@ nav a {
 main {
     margin-top: 20px;
 }
-
+#todo-row{
+    height: 550px;
+    
+}
 .ToDo {
     background-color: #fff;
     padding: 20px;
@@ -43,7 +46,7 @@ main {
 
 table {
     width: 100%;
-    border-collapse: collapse;
+    
 }
 
 th, td {
