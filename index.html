@@ -3,52 +3,59 @@
 <head>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1950/1950715.png" type="image/x-icon">
     <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/bootstrapcss.min.css">
     <link rel="stylesheet" href="style/style.css">
     <title>Todo</title>
 </head>
 <body>
-    <header>
-        <h1 class="logo"><img src="https://cdn-icons-png.flaticon.com/512/1950/1950715.png" alt="Website Logo" width="50" height="50">  To-Do</h1>
-        
-        
-        
-        <nav>
-            <a href="">Home</a> |
-            <a href="./about.html" target="_blank">About</a> |
-            <a href="">Contact</a> |
-        </nav>
-        </header>
-    <hr>
-    <main>
+<div class="container"> <header>
+    <h1 class="logo"><img src="https://cdn-icons-png.flaticon.com/512/1950/1950715.png" alt="Website Logo" width="50" height="50">  To-Do</h1>
+    
+    
+    
+    <nav>
+        <a href="">Home</a> |
+        <a href="./about.html" target="_blank">About</a> |
+        <a href="">Contact</a> |
+    </nav>
+    </header>
+<hr>
+<main>
+    <div class="row"><div class="col-2"></div>
+    <div class="col-8">
         <div class="ToDo">
-            <div>
-                <table >
-                <tr >
-                    <th class="th-task">Task</th>
-                    <th class="th-done">Done</th>
-                </tr>
-                <tr>
-                    <td class="c1">Task 1 </td>
-                    <td class="task-status"><input type="checkbox"></div></td>
-                </tr>
-                <tr >
-                    <td class="c1">Task 2 </td>
-                    <td class="task-status"><input type="checkbox"></div></td>
-                </tr>
-                <tr >
-                    <td class="c1">Task 3</td>
-                    <td class="task-status"><input type="checkbox"></div></td>
-                </tr>
-                </table>
-            </div>
-            
-            <div class="add-task-btn"> <button>Add Task</button></div>
+        <div>
+            <table >
+            <tr >
+                <th class="th-task"><h3>Task</h3></th>
+                <th class="th-done">Done</th>
+            </tr>
+            <tr>
+                <td class="c1">Task 1 </td>
+                <td class="task-status"><input type="checkbox"></div></td>
+            </tr>
+            <tr >
+                <td class="c1">Task 2 </td>
+                <td class="task-status"><input type="checkbox"></div></td>
+            </tr>
+            <tr >
+                <td class="c1">Task 3</td>
+                <td class="task-status"><input type="checkbox"></div></td>
+            </tr>
+            </table>
         </div>
-    </main>
-    <hr>
-    <footer>
-        <p class="copy-right">&copy; Copyright</p><br>
-    </footer>
-    <script src="JS/app.js"></script>
+        
+        <div class="add-task-btn"> <button class="btn btn-dark">Add Task</button></div>
+    </div>
+    <div class="col-2"></div></div>
+    
+</div>
+</main>
+<hr>
+<footer>
+    <p class="copy-right">&copy; Copyright</p><br>
+</footer>
+<script src="JS/bootstrapjs.bundle.min.js"></script>
+<script src="JS/app.js"></script></div>
 </body>
 </html>
