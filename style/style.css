@@ -166,6 +166,12 @@ form textarea {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+#Linkedin-btn{
+
+    display: flex;
+    justify-content: center;
+    
+}
 
 footer {
     margin-top: 20px;
