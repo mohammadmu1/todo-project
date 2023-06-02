@@ -76,8 +76,9 @@ th, td {
     text-align: right;
 }
 
-
-
+tr:hover {
+    background-color: #9ef5ff;
+  }
 
 footer {
     margin-top: 20px;
@@ -168,6 +169,10 @@ form textarea {
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+#Linkedin-btn:hover{
+
+    background-color: #03545d;
 }
 #Linkedin-btn{
 
