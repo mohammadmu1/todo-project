@@ -33,7 +33,10 @@ nav a {
 main {
     margin-top: 20px;
 }
-
+#todo-row{
+    height: 550px;
+    
+}
 .ToDo {
     background-color: #fff;
     padding: 20px;
@@ -43,7 +46,7 @@ main {
 
 table {
     width: 100%;
-    border-collapse: collapse;
+    
 }
 
 th, td {
@@ -73,8 +76,9 @@ th, td {
     text-align: right;
 }
 
-
-
+tr:hover {
+    background-color: #9ef5ff;
+  }
 
 footer {
     margin-top: 20px;
@@ -165,6 +169,16 @@ form textarea {
     margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
+}
+#Linkedin-btn:hover{
+
+    background-color: #03545d;
+}
+#Linkedin-btn{
+
+    display: flex;
+    justify-content: center;
+    
 }
 
 footer {
