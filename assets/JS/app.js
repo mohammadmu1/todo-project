@@ -12,7 +12,12 @@ confirmWelcoming=confirm("Do you  wants to skip the welcoming message.")
 
 if(!confirmWelcoming){
     let name =prompt("please , Enter your name" , " ")
+    if(name==null || name ==' '){
+        name = "invalid"
+    }
+    
     arr.push(name)
+    
     let gender =prompt("please , Enter your gender\nThe answer should be either (male or female).")
     while(true){
         if (gender =="male" || gender =="female"){
