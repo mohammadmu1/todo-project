@@ -61,15 +61,15 @@ function welcomngMessage(gender , name){
 
 
 //main
-let yesNoAnswers=[];
+let yesNoAnswers=[];//we will fill yoes or no qustions answers there
 
 
 let confirmWelcoming=confirm("Do you  wants to skip the welcoming message.")
 if(!confirmWelcoming){
     let name = whatIsYourName();
-    let gender = gender();
+    let gend = gender();
     whatIsYourAge();
-    welcomngMessage(gender , name );
+    welcomngMessage(gend , name );
     
 }
 
